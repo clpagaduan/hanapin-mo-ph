@@ -73,7 +73,7 @@ export default function AchievementsPage() {
   useEffect(() => {
     async function loadAchievements() {
       if (!user) return;
-      const userAchievements = await getUserAchievements(user.id);
+      const userAchievements = await getUserAchievements(user.uid);
       setAchievements(userAchievements);
       setLoading(false);
     }
