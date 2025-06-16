@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Navigation from '@/components/Navigation'
 import Providers from '@/components/Providers'
 import { AuthProvider } from '@/contexts/AuthContext'
 import Header from "@/components/Header"
@@ -25,7 +24,6 @@ export default function RootLayout({
         <AuthProvider>
           <Providers>
             <Header />
-            <Navigation />
             <main className="flex-grow">
               {children}
             </main>

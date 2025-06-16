@@ -1,10 +1,23 @@
 import { locations } from '../src/data/locations';
 import * as dotenv from 'dotenv';
 import fetch from 'node-fetch';
+import 'dotenv/config';
 
 dotenv.config({ path: '.env.local' });
 
-const GOOGLE_MAPS_API_KEY = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!;
+const metadataBaseUrl = 'https://maps.googleapis.com/maps/api/streetview/metadata';
+
+interface StreetViewMetadata {
+  status: string;
+  copyright: string;
+  date: string;
+  pano_id: string;
+  location: {
+    lat: number;
+    lng: number;
+  };
+}
 
 interface StreetViewResponse {
   status: string;
@@ -24,7 +37,7 @@ interface Location {
 
 async function checkStreetView(location: Location) {
   const { lat, lng, title } = location;
-  const url = `https://maps.googleapis.com/maps/api/streetview/metadata?location=${lat},${lng}&key=${GOOGLE_MAPS_API_KEY}`;
+  const url = `https://maps.googleapis.com/maps/api/streetview/metadata?location=${lat},${lng}&key=${apiKey}`;
   
   try {
     const response = await fetch(url);
@@ -45,6 +58,12 @@ async function checkStreetView(location: Location) {
       available: false
     };
   }
+}
+
+export async function checkStreetViewMetadata(lat: number, lng: number): Promise<StreetViewMetadata> {
+  const url = `${metadataBaseUrl}?location=${lat},${lng}&key=${apiKey}`;
+  const response = await fetch(url);
+  return response.json() as Promise<StreetViewMetadata>;
 }
 
 async function main() {

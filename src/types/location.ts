@@ -12,10 +12,10 @@ export interface Location {
     pitch: number;
     zoom: number;
   };
-  streetViewMetadata: {
+  streetViewMetadata?: {
     pano: string;
     copyright: string;
     date: string;
   };
-  isGoogleStreetView: boolean;
+  isGoogleStreetView?: boolean;
 } 

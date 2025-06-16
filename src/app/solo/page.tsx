@@ -5,7 +5,6 @@ import GameMap from '@/components/GameMap';
 import StreetView from '@/components/StreetView';
 import ResultsView from '@/components/ResultsView';
 import { locations } from '@/data/verified-locations';
-import { remoteLocations } from '@/data/remote-locations';
 import { collection, addDoc, doc, updateDoc, increment, getDoc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { Location } from '@/types/location';
@@ -16,10 +15,16 @@ const ROUNDS = 5;
 const MAX_SCORE_PER_ROUND = 5000;
 
 function getRandomLocations(count: number) {
-  // Combine both location sets, with remote locations having a higher weight
-  const allLocations = [...locations, ...remoteLocations, ...remoteLocations];
-  const shuffled = [...allLocations].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, count);
+  // Create a new array for shuffling to avoid mutating the original
+  const locationsToShuffle = [...locations];
+  
+  // Fisher-Yates shuffle
+  for (let i = locationsToShuffle.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [locationsToShuffle[i], locationsToShuffle[j]] = [locationsToShuffle[j], locationsToShuffle[i]];
+  }
+  
+  return locationsToShuffle.slice(0, count);
 }
 
 function calculateScore(distance: number): number {
@@ -79,11 +84,8 @@ export default function SoloGame() {
 
   useEffect(() => {
     // Get 5 random locations for the game
-    const getRandomLocations = () => {
-      const shuffled = [...locations].sort(() => 0.5 - Math.random());
-      return shuffled.slice(0, 5);
-    };
-    setGameLocations(getRandomLocations());
+    const newLocations = getRandomLocations(ROUNDS);
+    setGameLocations(newLocations);
     setIsLoading(false);
   }, []);
 
@@ -114,7 +116,8 @@ export default function SoloGame() {
   const handlePlayAgain = async () => {
     // Reset game state
     setCurrentRound(1);
-    setGameLocations(getRandomLocations(ROUNDS));
+    const newLocations = getRandomLocations(ROUNDS);
+    setGameLocations(newLocations);
     setGuesses([]);
     setCurrentGuess(null);
     setScore(0);

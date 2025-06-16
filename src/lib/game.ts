@@ -100,13 +100,13 @@ export async function submitDailyScore(userId: string, challengeId: string, scor
   }, { merge: true });
 }
 
-export async function getDailyLeaderboard(challengeId: string, limit = 10): Promise<LeaderboardEntry[]> {
+export async function getDailyLeaderboard(challengeId: string, limitCount: number = 10): Promise<LeaderboardEntry[]> {
   const scoresRef = collection(db, 'dailyScores');
   const q = query(
     scoresRef,
     where('challengeId', '==', challengeId),
     orderBy('score', 'desc'),
-    limit(limit)
+    limit(limitCount)
   );
 
   const scoresSnap = await getDocs(q);

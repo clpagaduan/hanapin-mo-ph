@@ -1,5 +1,7 @@
-// Auto-generated file - contains only locations with official Google Street View coverage
-export const locations = [
+import { Location } from '@/types/location';
+
+// Contains only locations with confirmed Google Street View coverage
+export const locations: Location[] = [
   {
     "id": "loc3",
     "title": "Fort Santiago",
@@ -15,14 +17,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "EgkjW0Am78R1CuP7jY7jFA",
       "copyright": "© Google",
-      "date": "2013-12",
-      "location": {
-        "lat": 14.59338817761636,
-        "lng": 120.970492779481
-      },
-      "pano_id": "EgkjW0Am78R1CuP7jY7jFA",
-      "status": "OK"
+      "date": "2013-12"
     },
     "isGoogleStreetView": true
   },
@@ -41,14 +38,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "MeBL8F79bm7MZyJZKa1UQA",
       "copyright": "© Google",
-      "date": "2016-08",
-      "location": {
-        "lat": 14.55078676086855,
-        "lng": 121.0504999904252
-      },
-      "pano_id": "MeBL8F79bm7MZyJZKa1UQA",
-      "status": "OK"
+      "date": "2016-08"
     },
     "isGoogleStreetView": true
   },
@@ -67,14 +59,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "QE8YXlNMUoYNkcMRbC2iiA",
       "copyright": "© Google",
-      "date": "2017-03",
-      "location": {
-        "lat": 14.65088671460696,
-        "lng": 121.0493150879821
-      },
-      "pano_id": "QE8YXlNMUoYNkcMRbC2iiA",
-      "status": "OK"
+      "date": "2017-03"
     },
     "isGoogleStreetView": true
   },
@@ -93,14 +80,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "gmuncOIdOicCV-EOV60Adw",
       "copyright": "© Google",
-      "date": "2015-05",
-      "location": {
-        "lat": 16.41094774370958,
-        "lng": 120.5951393896669
-      },
-      "pano_id": "gmuncOIdOicCV-EOV60Adw",
-      "status": "OK"
+      "date": "2015-05"
     },
     "isGoogleStreetView": true
   },
@@ -119,14 +101,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "DVHBwXu7_v8XgYwYYm4HcA",
       "copyright": "© Google",
-      "date": "2023-08",
-      "location": {
-        "lat": 17.57471017157992,
-        "lng": 120.3867739359726
-      },
-      "pano_id": "DVHBwXu7_v8XgYwYYm4HcA",
-      "status": "OK"
+      "date": "2023-08"
     },
     "isGoogleStreetView": true
   },
@@ -145,14 +122,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "e3Tq8wda0t23WtpZrMcFCw",
       "copyright": "© Google",
-      "date": "2025-01",
-      "location": {
-        "lat": 14.11530534695767,
-        "lng": 120.962084835592
-      },
-      "pano_id": "e3Tq8wda0t23WtpZrMcFCw",
-      "status": "OK"
+      "date": "2025-01"
     },
     "isGoogleStreetView": true
   },
@@ -171,14 +143,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "3xMGZb1iW5Hwp2bo5KcIPA",
       "copyright": "© Google",
-      "date": "2024-04",
-      "location": {
-        "lat": 14.82386186375447,
-        "lng": 120.2831179447341
-      },
-      "pano_id": "3xMGZb1iW5Hwp2bo5KcIPA",
-      "status": "OK"
+      "date": "2024-04"
     },
     "isGoogleStreetView": true
   },
@@ -197,14 +164,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "KOTstTeABfdqfZ0qICya0w",
       "copyright": "© Google",
-      "date": "2024-02",
-      "location": {
-        "lat": 10.67126725783786,
-        "lng": 122.9482628197375
-      },
-      "pano_id": "KOTstTeABfdqfZ0qICya0w",
-      "status": "OK"
+      "date": "2024-02"
     },
     "isGoogleStreetView": true
   },
@@ -223,14 +185,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "5sNsZUuR15pfalZZQhO_4g",
       "copyright": "© Google",
-      "date": "2022-11",
-      "location": {
-        "lat": 10.69266559954274,
-        "lng": 122.5723034744115
-      },
-      "pano_id": "5sNsZUuR15pfalZZQhO_4g",
-      "status": "OK"
+      "date": "2022-11"
     },
     "isGoogleStreetView": true
   },
@@ -249,14 +206,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "g9koUV2UXnoIs7JeK99zaQ",
       "copyright": "© Google",
-      "date": "2023-10",
-      "location": {
-        "lat": 8.47907438515649,
-        "lng": 124.6502549664608
-      },
-      "pano_id": "g9koUV2UXnoIs7JeK99zaQ",
-      "status": "OK"
+      "date": "2023-10"
     },
     "isGoogleStreetView": true
   },
@@ -275,14 +227,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "437uEAbZMA98kv6ihKvUCw",
       "copyright": "© Google",
-      "date": "2022-08",
-      "location": {
-        "lat": 6.914709070847943,
-        "lng": 122.0794773376435
-      },
-      "pano_id": "437uEAbZMA98kv6ihKvUCw",
-      "status": "OK"
+      "date": "2022-08"
     },
     "isGoogleStreetView": true
   },
@@ -301,14 +248,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "vM_ySg349pOxwXnTebER1w",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 8.947777213775867,
-        "lng": 125.5428659745428
-      },
-      "pano_id": "vM_ySg349pOxwXnTebER1w",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -327,14 +269,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "je4hdQlnm_Siyjlb8om7FA",
       "copyright": "© Google",
-      "date": "2019-05",
-      "location": {
-        "lat": 13.13907651727207,
-        "lng": 123.7438096623724
-      },
-      "pano_id": "je4hdQlnm_Siyjlb8om7FA",
-      "status": "OK"
+      "date": "2019-05"
     },
     "isGoogleStreetView": true
   },
@@ -353,14 +290,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "lpGiTSBWYXH1EJsTgA6aZg",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 9.30750290161776,
-        "lng": 123.3087074239837
-      },
-      "pano_id": "lpGiTSBWYXH1EJsTgA6aZg",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -379,14 +311,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "BArW3WUuwkHsW9sv2B6KOw",
       "copyright": "© Google",
-      "date": "2024-04",
-      "location": {
-        "lat": 9.642533595121133,
-        "lng": 123.8540180946825
-      },
-      "pano_id": "BArW3WUuwkHsW9sv2B6KOw",
-      "status": "OK"
+      "date": "2024-04"
     },
     "isGoogleStreetView": true
   },
@@ -405,14 +332,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "O5bzr6W62WCuplnPi7ww5A",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 8.22798907591268,
-        "lng": 124.2452304220113
-      },
-      "pano_id": "O5bzr6W62WCuplnPi7ww5A",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -431,14 +353,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "vM_ySg349pOxwXnTebER1w",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 8.947777213775867,
-        "lng": 125.5428659745428
-      },
-      "pano_id": "vM_ySg349pOxwXnTebER1w",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -457,14 +374,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "e40hYN6jRMslzLNao5E3Xg",
       "copyright": "© Google",
-      "date": "2024-02",
-      "location": {
-        "lat": 14.65463070140186,
-        "lng": 121.0643572380776
-      },
-      "pano_id": "e40hYN6jRMslzLNao5E3Xg",
-      "status": "OK"
+      "date": "2024-02"
     },
     "isGoogleStreetView": true
   },
@@ -483,14 +395,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "o4QoDQUle10q9_amvSWSXA",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 14.58844393088614,
-        "lng": 120.9821793415098
-      },
-      "pano_id": "o4QoDQUle10q9_amvSWSXA",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -509,14 +416,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "SVrv3JsyHVo-LT16d7iB5g",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 14.60170435497112,
-        "lng": 121.0510672419077
-      },
-      "pano_id": "SVrv3JsyHVo-LT16d7iB5g",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -535,14 +437,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "JAvE5YDS7GFWubKaebmeRQ",
       "copyright": "© Google",
-      "date": "2023-04",
-      "location": {
-        "lat": 18.059626219667,
-        "lng": 120.5245072043854
-      },
-      "pano_id": "JAvE5YDS7GFWubKaebmeRQ",
-      "status": "OK"
+      "date": "2023-04"
     },
     "isGoogleStreetView": true
   },
@@ -561,14 +458,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "BIDDGnku_qA3lAgquTEulw",
       "copyright": "© Google",
-      "date": "2025-02",
-      "location": {
-        "lat": 13.88610576972062,
-        "lng": 120.9262161656652
-      },
-      "pano_id": "BIDDGnku_qA3lAgquTEulw",
-      "status": "OK"
+      "date": "2025-02"
     },
     "isGoogleStreetView": true
   },
@@ -587,14 +479,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "vdIQZ8Abu5a-aNpgs-yKBw",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 13.13322230010945,
-        "lng": 123.7054306539774
-      },
-      "pano_id": "vdIQZ8Abu5a-aNpgs-yKBw",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -613,14 +500,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "woaSvE1giRPjNavBler38g",
       "copyright": "© Google",
-      "date": "2014-02",
-      "location": {
-        "lat": 14.535504351542,
-        "lng": 120.984486847735
-      },
-      "pano_id": "woaSvE1giRPjNavBler38g",
-      "status": "OK"
+      "date": "2014-02"
     },
     "isGoogleStreetView": true
   },
@@ -639,14 +521,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "3BcIZivyRPWZRL6pqEuU8g",
       "copyright": "© Google",
-      "date": "2019-03",
-      "location": {
-        "lat": 14.5369666520059,
-        "lng": 121.0559021097286
-      },
-      "pano_id": "3BcIZivyRPWZRL6pqEuU8g",
-      "status": "OK"
+      "date": "2019-03"
     },
     "isGoogleStreetView": true
   },
@@ -665,14 +542,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Tvk0flAon98byQllewHl0g",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 16.40939624583898,
-        "lng": 120.5966477515121
-      },
-      "pano_id": "Tvk0flAon98byQllewHl0g",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -691,14 +563,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "c3fGF6IgzlstS2Df3IpfQA",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 16.41035171155663,
-        "lng": 120.6282203054989
-      },
-      "pano_id": "c3fGF6IgzlstS2Df3IpfQA",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -717,14 +584,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "3P9PC7rExlNpZfp2ysa46Q",
       "copyright": "© Google",
-      "date": "2025-04",
-      "location": {
-        "lat": 18.19763939650829,
-        "lng": 120.5949078349744
-      },
-      "pano_id": "3P9PC7rExlNpZfp2ysa46Q",
-      "status": "OK"
+      "date": "2025-04"
     },
     "isGoogleStreetView": true
   },
@@ -743,14 +605,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "mihp-GR31RnCnXsdamIU4w",
       "copyright": "© Google",
-      "date": "2023-05",
-      "location": {
-        "lat": 18.17468641127077,
-        "lng": 120.593853179466
-      },
-      "pano_id": "mihp-GR31RnCnXsdamIU4w",
-      "status": "OK"
+      "date": "2023-05"
     },
     "isGoogleStreetView": true
   },
@@ -769,14 +626,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "ibnb6AhFka9ZEVrW7TTdNg",
       "copyright": "© Google",
-      "date": "2023-04",
-      "location": {
-        "lat": 18.05440484954831,
-        "lng": 120.5672623709551
-      },
-      "pano_id": "ibnb6AhFka9ZEVrW7TTdNg",
-      "status": "OK"
+      "date": "2023-04"
     },
     "isGoogleStreetView": true
   },
@@ -795,14 +647,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "lgRn2UnB25afotJMWWVmQg",
       "copyright": "© Google",
-      "date": "2024-04",
-      "location": {
-        "lat": 16.04341679989754,
-        "lng": 120.3422588045479
-      },
-      "pano_id": "lgRn2UnB25afotJMWWVmQg",
-      "status": "OK"
+      "date": "2024-04"
     },
     "isGoogleStreetView": true
   },
@@ -821,14 +668,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Ig0Qu96znbN_o1PJaS8GWg",
       "copyright": "© Google",
-      "date": "2024-05",
-      "location": {
-        "lat": 16.02111054965194,
-        "lng": 120.2312225157608
-      },
-      "pano_id": "Ig0Qu96znbN_o1PJaS8GWg",
-      "status": "OK"
+      "date": "2024-05"
     },
     "isGoogleStreetView": true
   },
@@ -847,14 +689,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "m7rK3JodEgOl3nU6w9c0QA",
       "copyright": "© Google",
-      "date": "2025-01",
-      "location": {
-        "lat": 16.61883722281352,
-        "lng": 120.3219708816549
-      },
-      "pano_id": "m7rK3JodEgOl3nU6w9c0QA",
-      "status": "OK"
+      "date": "2025-01"
     },
     "isGoogleStreetView": true
   },
@@ -873,14 +710,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Kn9AmYs9r-MqHJoH-twszg",
       "copyright": "© Google",
-      "date": "2024-06",
-      "location": {
-        "lat": 15.97578763498753,
-        "lng": 120.5714087625317
-      },
-      "pano_id": "Kn9AmYs9r-MqHJoH-twszg",
-      "status": "OK"
+      "date": "2024-06"
     },
     "isGoogleStreetView": true
   },
@@ -899,14 +731,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "zaMlsl9edE-Ngt6Ta65t4A",
       "copyright": "© Google",
-      "date": "2021-05",
-      "location": {
-        "lat": 16.15546682128627,
-        "lng": 119.9780536770869
-      },
-      "pano_id": "zaMlsl9edE-Ngt6Ta65t4A",
-      "status": "OK"
+      "date": "2021-05"
     },
     "isGoogleStreetView": true
   },
@@ -925,14 +752,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "_5D8v65Au6CIXSxoQEiFhA",
       "copyright": "© Google",
-      "date": "2023-03",
-      "location": {
-        "lat": 15.89386310013636,
-        "lng": 120.6332297067063
-      },
-      "pano_id": "_5D8v65Au6CIXSxoQEiFhA",
-      "status": "OK"
+      "date": "2023-03"
     },
     "isGoogleStreetView": true
   },
@@ -951,14 +773,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "22bQHgjMxWG5bsC6i7LZWA",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 16.04391608553729,
-        "lng": 120.4856188565775
-      },
-      "pano_id": "22bQHgjMxWG5bsC6i7LZWA",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -977,14 +794,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "i7Y_uxIfo48q6Z2nc9JIig",
       "copyright": "© Google",
-      "date": "2024-06",
-      "location": {
-        "lat": 14.59794034580742,
-        "lng": 120.9748791264419
-      },
-      "pano_id": "i7Y_uxIfo48q6Z2nc9JIig",
-      "status": "OK"
+      "date": "2024-06"
     },
     "isGoogleStreetView": true
   },
@@ -1003,14 +815,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "4ckI1yXZ8gezsIZuNhiq2g",
       "copyright": "© Google",
-      "date": "2024-06",
-      "location": {
-        "lat": 14.59864113404884,
-        "lng": 120.9841799004741
-      },
-      "pano_id": "4ckI1yXZ8gezsIZuNhiq2g",
-      "status": "OK"
+      "date": "2024-06"
     },
     "isGoogleStreetView": true
   },
@@ -1029,14 +836,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "y1QUIIaGjFyMr50BAq3iJw",
       "copyright": "© Google",
-      "date": "2024-09",
-      "location": {
-        "lat": 14.60074204380344,
-        "lng": 120.9830654486984
-      },
-      "pano_id": "y1QUIIaGjFyMr50BAq3iJw",
-      "status": "OK"
+      "date": "2024-09"
     },
     "isGoogleStreetView": true
   },
@@ -1055,14 +857,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "dkEvhopsBINx-pAGieYxZA",
       "copyright": "© Google",
-      "date": "2019-11",
-      "location": {
-        "lat": 14.58894566543695,
-        "lng": 120.9777165853595
-      },
-      "pano_id": "dkEvhopsBINx-pAGieYxZA",
-      "status": "OK"
+      "date": "2019-11"
     },
     "isGoogleStreetView": true
   },
@@ -1081,14 +878,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "lRP4Hx0w6ovVcfV-m6aI6A",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 14.57655736378421,
-        "lng": 120.9893498494599
-      },
-      "pano_id": "lRP4Hx0w6ovVcfV-m6aI6A",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -1107,14 +899,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "7Jxoaaql9a0p3F8HZEULZw",
       "copyright": "© Google",
-      "date": "2018-12",
-      "location": {
-        "lat": 14.57641580893921,
-        "lng": 120.9857447369765
-      },
-      "pano_id": "7Jxoaaql9a0p3F8HZEULZw",
-      "status": "OK"
+      "date": "2018-12"
     },
     "isGoogleStreetView": true
   },
@@ -1133,14 +920,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "CmJ4iY7ca2QOlfhrXJdYTA",
       "copyright": "© Google",
-      "date": "2023-04",
-      "location": {
-        "lat": 17.58208631932079,
-        "lng": 120.3791613108806
-      },
-      "pano_id": "CmJ4iY7ca2QOlfhrXJdYTA",
-      "status": "OK"
+      "date": "2023-04"
     },
     "isGoogleStreetView": true
   },
@@ -1159,14 +941,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "rKbjpxU7kQM2U_82WTbt3Q",
       "copyright": "© Google",
-      "date": "2023-04",
-      "location": {
-        "lat": 18.06466391573319,
-        "lng": 120.5210916985582
-      },
-      "pano_id": "rKbjpxU7kQM2U_82WTbt3Q",
-      "status": "OK"
+      "date": "2023-04"
     },
     "isGoogleStreetView": true
   },
@@ -1185,14 +962,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "uPAamfbG234rDqoiQFsV2w",
       "copyright": "© Google",
-      "date": "2019-11",
-      "location": {
-        "lat": 18.05311356314454,
-        "lng": 120.5641487120838
-      },
-      "pano_id": "uPAamfbG234rDqoiQFsV2w",
-      "status": "OK"
+      "date": "2019-11"
     },
     "isGoogleStreetView": true
   },
@@ -1211,14 +983,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "R8zD1WsNNfBHsEjBSV7oDw",
       "copyright": "© Google",
-      "date": "2023-04",
-      "location": {
-        "lat": 18.10552993770186,
-        "lng": 120.6668958631037
-      },
-      "pano_id": "R8zD1WsNNfBHsEjBSV7oDw",
-      "status": "OK"
+      "date": "2023-04"
     },
     "isGoogleStreetView": true
   },
@@ -1237,14 +1004,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "nB8RyGJiooarT0OGYnmqtA",
       "copyright": "© Google",
-      "date": "2016-01",
-      "location": {
-        "lat": 17.93334725155943,
-        "lng": 120.4667644649861
-      },
-      "pano_id": "nB8RyGJiooarT0OGYnmqtA",
-      "status": "OK"
+      "date": "2016-01"
     },
     "isGoogleStreetView": true
   },
@@ -1263,14 +1025,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "UEB8Zj5E8XANToavpbOoWA",
       "copyright": "© Google",
-      "date": "2025-04",
-      "location": {
-        "lat": 10.29749234136005,
-        "lng": 123.8986467541366
-      },
-      "pano_id": "UEB8Zj5E8XANToavpbOoWA",
-      "status": "OK"
+      "date": "2025-04"
     },
     "isGoogleStreetView": true
   },
@@ -1289,14 +1046,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "lpGiTSBWYXH1EJsTgA6aZg",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 9.30750290161776,
-        "lng": 123.3087074239837
-      },
-      "pano_id": "lpGiTSBWYXH1EJsTgA6aZg",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -1315,14 +1067,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "QaK2NrgYaQIynEj8907N6w",
       "copyright": "© Google",
-      "date": "2024-12",
-      "location": {
-        "lat": 11.58474997068942,
-        "lng": 122.7518256621946
-      },
-      "pano_id": "QaK2NrgYaQIynEj8907N6w",
-      "status": "OK"
+      "date": "2024-12"
     },
     "isGoogleStreetView": true
   },
@@ -1341,14 +1088,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Muw_gH92Eqb921G9I7so_Q",
       "copyright": "© Google",
-      "date": "2024-04",
-      "location": {
-        "lat": 9.65570264650507,
-        "lng": 123.853900057165
-      },
-      "pano_id": "Muw_gH92Eqb921G9I7so_Q",
-      "status": "OK"
+      "date": "2024-04"
     },
     "isGoogleStreetView": true
   },
@@ -1367,14 +1109,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "1pwJzCzoGWvgf4MAi5gJ_g",
       "copyright": "© Google",
-      "date": "2025-04",
-      "location": {
-        "lat": 10.32412056168788,
-        "lng": 123.9424186392406
-      },
-      "pano_id": "1pwJzCzoGWvgf4MAi5gJ_g",
-      "status": "OK"
+      "date": "2025-04"
     },
     "isGoogleStreetView": true
   },
@@ -1393,14 +1130,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "4cn7nL4QkR-85kE75bRZgQ",
       "copyright": "© Google",
-      "date": "2022-08",
-      "location": {
-        "lat": 11.7086527704549,
-        "lng": 122.3642476633629
-      },
-      "pano_id": "4cn7nL4QkR-85kE75bRZgQ",
-      "status": "OK"
+      "date": "2022-08"
     },
     "isGoogleStreetView": true
   },
@@ -1419,14 +1151,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "l-f93Z-BOQiA3Nvs5NZaOQ",
       "copyright": "© Google",
-      "date": "2024-10",
-      "location": {
-        "lat": 8.481596585130497,
-        "lng": 124.6529335797104
-      },
-      "pano_id": "l-f93Z-BOQiA3Nvs5NZaOQ",
-      "status": "OK"
+      "date": "2024-10"
     },
     "isGoogleStreetView": true
   },
@@ -1445,14 +1172,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "ClUpAslKnwr1IH80RmjH8w",
       "copyright": "© Google",
-      "date": "2022-08",
-      "location": {
-        "lat": 6.921434851593602,
-        "lng": 122.0789843239343
-      },
-      "pano_id": "ClUpAslKnwr1IH80RmjH8w",
-      "status": "OK"
+      "date": "2022-08"
     },
     "isGoogleStreetView": true
   },
@@ -1471,14 +1193,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "f3uxOLN3HYqAYO0--8ruIw",
       "copyright": "© Google",
-      "date": "2024-05",
-      "location": {
-        "lat": 6.110615523398184,
-        "lng": 125.1743491229969
-      },
-      "pano_id": "f3uxOLN3HYqAYO0--8ruIw",
-      "status": "OK"
+      "date": "2024-05"
     },
     "isGoogleStreetView": true
   },
@@ -1497,14 +1214,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "uvYYGLfsLerRUZjZBVVElw",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 8.94782774961336,
-        "lng": 125.5435863648496
-      },
-      "pano_id": "uvYYGLfsLerRUZjZBVVElw",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -1523,14 +1235,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "O5bzr6W62WCuplnPi7ww5A",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 8.22798907591268,
-        "lng": 124.2452304220113
-      },
-      "pano_id": "O5bzr6W62WCuplnPi7ww5A",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   },
@@ -1549,14 +1256,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "hsVQwLUCJGWRW6SPU9VCGw",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 9.784835847661402,
-        "lng": 125.4976087641302
-      },
-      "pano_id": "hsVQwLUCJGWRW6SPU9VCGw",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -1575,14 +1277,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "jAG0J0eVq67mmaWsn4AH0Q",
       "copyright": "© Google",
-      "date": "2022-09",
-      "location": {
-        "lat": 8.588636899806415,
-        "lng": 123.3411371160838
-      },
-      "pano_id": "jAG0J0eVq67mmaWsn4AH0Q",
-      "status": "OK"
+      "date": "2022-09"
     },
     "isGoogleStreetView": true
   },
@@ -1601,14 +1298,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Op4_2EknJ9aVLA1vDty15A",
       "copyright": "© Google",
-      "date": "2024-04",
-      "location": {
-        "lat": 7.826869067745155,
-        "lng": 123.437066988132
-      },
-      "pano_id": "Op4_2EknJ9aVLA1vDty15A",
-      "status": "OK"
+      "date": "2024-04"
     },
     "isGoogleStreetView": true
   },
@@ -1627,14 +1319,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "YcJFltwZnxen6jgdGC2j6A",
       "copyright": "© Google",
-      "date": "2024-10",
-      "location": {
-        "lat": 7.214122685770834,
-        "lng": 124.2515245517162
-      },
-      "pano_id": "YcJFltwZnxen6jgdGC2j6A",
-      "status": "OK"
+      "date": "2024-10"
     },
     "isGoogleStreetView": true
   },
@@ -1653,14 +1340,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "VUFmB5LW-Y3vTK2_VleKKw",
       "copyright": "© Google",
-      "date": "2021-03",
-      "location": {
-        "lat": 8.001796216416567,
-        "lng": 124.2888373415302
-      },
-      "pano_id": "VUFmB5LW-Y3vTK2_VleKKw",
-      "status": "OK"
+      "date": "2021-03"
     },
     "isGoogleStreetView": true
   },
@@ -1679,14 +1361,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "zFIH5UWc0QAyGfNaep5fSQ",
       "copyright": "© Google",
-      "date": "2025-04",
-      "location": {
-        "lat": 10.33064441594957,
-        "lng": 123.9062851989034
-      },
-      "pano_id": "zFIH5UWc0QAyGfNaep5fSQ",
-      "status": "OK"
+      "date": "2025-04"
     },
     "isGoogleStreetView": true
   },
@@ -1705,14 +1382,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "FyJyqOPjXDUPSP6-SACblw",
       "copyright": "© Google",
-      "date": "2024-11",
-      "location": {
-        "lat": 10.69615533406158,
-        "lng": 122.5681380580551
-      },
-      "pano_id": "FyJyqOPjXDUPSP6-SACblw",
-      "status": "OK"
+      "date": "2024-11"
     },
     "isGoogleStreetView": true
   },
@@ -1731,14 +1403,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "qDTk_assanVJJ_5p5JU1sg",
       "copyright": "© Google",
-      "date": "2022-10",
-      "location": {
-        "lat": 11.77531075627132,
-        "lng": 124.8856283376496
-      },
-      "pano_id": "qDTk_assanVJJ_5p5JU1sg",
-      "status": "OK"
+      "date": "2022-10"
     },
     "isGoogleStreetView": true
   },
@@ -1757,14 +1424,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "nuioCbcTC-kLXsN57dj7YQ",
       "copyright": "© Google",
-      "date": "2022-10",
-      "location": {
-        "lat": 10.13342275614912,
-        "lng": 124.8449791726885
-      },
-      "pano_id": "nuioCbcTC-kLXsN57dj7YQ",
-      "status": "OK"
+      "date": "2022-10"
     },
     "isGoogleStreetView": true
   },
@@ -1783,14 +1445,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "nVt_edihjhp9X6Gh-SPxAQ",
       "copyright": "© Google",
-      "date": "2021-06",
-      "location": {
-        "lat": 7.108821574280241,
-        "lng": 125.6157092819267
-      },
-      "pano_id": "nVt_edihjhp9X6Gh-SPxAQ",
-      "status": "OK"
+      "date": "2021-06"
     },
     "isGoogleStreetView": true
   },
@@ -1809,14 +1466,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "Ai7yEn6UNXIHCiBn9akhOw",
       "copyright": "© Google",
-      "date": "2024-10",
-      "location": {
-        "lat": 8.484225203526158,
-        "lng": 124.6469418258423
-      },
-      "pano_id": "Ai7yEn6UNXIHCiBn9akhOw",
-      "status": "OK"
+      "date": "2024-10"
     },
     "isGoogleStreetView": true
   },
@@ -1835,14 +1487,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "qI9qrFSGz1WR0Fw8Mvz1IQ",
       "copyright": "© Google",
-      "date": "2024-09",
-      "location": {
-        "lat": 7.903275817137288,
-        "lng": 125.092502134248
-      },
-      "pano_id": "qI9qrFSGz1WR0Fw8Mvz1IQ",
-      "status": "OK"
+      "date": "2024-09"
     },
     "isGoogleStreetView": true
   },
@@ -1861,14 +1508,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "UrvuI7LNsfW6PEwBiYh7Nw",
       "copyright": "© Google",
-      "date": "2023-11",
-      "location": {
-        "lat": 7.448095111675176,
-        "lng": 125.8078029762585
-      },
-      "pano_id": "UrvuI7LNsfW6PEwBiYh7Nw",
-      "status": "OK"
+      "date": "2023-11"
     },
     "isGoogleStreetView": true
   },
@@ -1887,14 +1529,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "PHWtfij-87qzYxOddljQiQ",
       "copyright": "© Google",
-      "date": "2024-06",
-      "location": {
-        "lat": 6.749559416453938,
-        "lng": 125.3567241095232
-      },
-      "pano_id": "PHWtfij-87qzYxOddljQiQ",
-      "status": "OK"
+      "date": "2024-06"
     },
     "isGoogleStreetView": true
   },
@@ -1913,14 +1550,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "cCNPqi3MxKGaDndf6pkcbQ",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 9.31028699815046,
-        "lng": 123.30706563593
-      },
-      "pano_id": "cCNPqi3MxKGaDndf6pkcbQ",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -1939,14 +1571,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "xKy70L__1oop0N9ChwW0Rg",
       "copyright": "© Google",
-      "date": "2023-06",
-      "location": {
-        "lat": 11.23960657703591,
-        "lng": 125.0023526229007
-      },
-      "pano_id": "xKy70L__1oop0N9ChwW0Rg",
-      "status": "OK"
+      "date": "2023-06"
     },
     "isGoogleStreetView": true
   },
@@ -1965,14 +1592,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "YXirycJ21QFg6WRs6XAglw",
       "copyright": "© Google",
-      "date": "2023-09",
-      "location": {
-        "lat": 10.72010629072753,
-        "lng": 122.5519962643179
-      },
-      "pano_id": "YXirycJ21QFg6WRs6XAglw",
-      "status": "OK"
+      "date": "2023-09"
     },
     "isGoogleStreetView": true
   },
@@ -1991,14 +1613,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "zQ4lz9izVHLq7HtVNd_3yg",
       "copyright": "© Google",
-      "date": "2015-12",
-      "location": {
-        "lat": 7.100650185955363,
-        "lng": 125.6383475622552
-      },
-      "pano_id": "zQ4lz9izVHLq7HtVNd_3yg",
-      "status": "OK"
+      "date": "2015-12"
     },
     "isGoogleStreetView": true
   },
@@ -2017,14 +1634,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "H4n6XnLaUak3XBNkL4wMuw",
       "copyright": "© Google",
-      "date": "2024-07",
-      "location": {
-        "lat": 8.956271312060515,
-        "lng": 125.5288352912123
-      },
-      "pano_id": "H4n6XnLaUak3XBNkL4wMuw",
-      "status": "OK"
+      "date": "2024-07"
     },
     "isGoogleStreetView": true
   },
@@ -2043,14 +1655,9 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "f3uxOLN3HYqAYO0--8ruIw",
       "copyright": "© Google",
-      "date": "2024-05",
-      "location": {
-        "lat": 6.110615523398184,
-        "lng": 125.1743491229969
-      },
-      "pano_id": "f3uxOLN3HYqAYO0--8ruIw",
-      "status": "OK"
+      "date": "2024-05"
     },
     "isGoogleStreetView": true
   },
@@ -2069,17 +1676,10 @@ export const locations = [
       "zoom": 1
     },
     "streetViewMetadata": {
+      "pano": "O5bzr6W62WCuplnPi7ww5A",
       "copyright": "© Google",
-      "date": "2024-03",
-      "location": {
-        "lat": 8.22798907591268,
-        "lng": 124.2452304220113
-      },
-      "pano_id": "O5bzr6W62WCuplnPi7ww5A",
-      "status": "OK"
+      "date": "2024-03"
     },
     "isGoogleStreetView": true
   }
-] as const;
-
-export type Location = typeof locations[number];
+];

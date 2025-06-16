@@ -82,7 +82,7 @@ export default function StorePage() {
 
     // Listen for inventory changes
     const inventoryUnsubscribe = onSnapshot(
-      doc(db, 'userInventory', user.id),
+      doc(db, 'userInventory', user.uid),
       (doc) => {
         if (doc.exists()) {
           setInventory(doc.data() as UserInventory);
@@ -92,7 +92,7 @@ export default function StorePage() {
 
     // Listen for user coin changes
     const userUnsubscribe = onSnapshot(
-      doc(db, 'users', user.id),
+      doc(db, 'users', user.uid),
       (doc) => {
         if (doc.exists()) {
           setUserCoins(doc.data()?.coins || 0);
@@ -101,7 +101,7 @@ export default function StorePage() {
     );
 
     // Load initial inventory
-    getUserInventory(user.id).then(inv => {
+    getUserInventory(user.uid).then(inv => {
       setInventory(inv);
       setLoading(false);
     });
@@ -134,7 +134,7 @@ export default function StorePage() {
 
   const handlePurchase = async (item: StoreItem) => {
     if (!user || !inventory) return;
-    const success = await purchaseItem(user.id, item.id);
+    const success = await purchaseItem(user.uid, item.id);
     if (!success) {
       alert('Purchase failed. Please try again.');
     }
@@ -142,7 +142,7 @@ export default function StorePage() {
 
   const handleEquip = async (item: StoreItem) => {
     if (!user || !inventory) return;
-    const success = await equipItem(user.id, item.id);
+    const success = await equipItem(user.uid, item.id);
     if (!success) {
       alert('Failed to equip item. Please try again.');
     }

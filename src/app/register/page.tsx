@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/contexts/AuthContext';
+import { doc, setDoc } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 
 export default function RegisterPage() {
   const [email, setEmail] = useState('');
@@ -16,10 +18,12 @@ export default function RegisterPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await signUp(email, password, displayName);
+      await signUp(email, password);
+      // The user document will be created by the AuthContext's createUserProfile function
       router.push('/');
     } catch (error) {
       setError('Failed to create an account');
+      console.error('Registration error:', error);
     }
   };
 
@@ -29,6 +33,7 @@ export default function RegisterPage() {
       router.push('/');
     } catch (error) {
       setError('Failed to sign in with Google');
+      console.error('Google sign in error:', error);
     }
   };
 
